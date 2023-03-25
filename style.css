@@ -1,0 +1,8 @@
+#first {
+background: linear-gradient(to bottom, rgb(208, 81, 69), rgba(239, 57, 163, 0.895));
+height: 500px;
+
+}
+#container {
+    background-image: url(./images/icon-arrow-light.svg);
+}
