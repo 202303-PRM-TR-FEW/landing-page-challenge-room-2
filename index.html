@@ -13,10 +13,10 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 45%, 44%); } 
   </style>
 </head>
-<body>
+<body class="body bg-light">
 <div id="first">
   <nav class="navbar navbar-expand-lg bg-danger-gradient">
     <div class="container-fluid">
@@ -56,14 +56,14 @@
      </div>
     </div>
   </div>
-<div class="container-fluid w-100 p-4 text-center text-dark bg-light" id="second">
+<div class="container-fluid p-5 text-center text-dark bg-light" id="second">
     <div class="row" id="design-head">
-      <div class="col-12 mb--4 mt-3">
+      <div class="col-12 mt-0">
         <h3>Designed for the future</h3>
       </div>
     </div>
-      <div class="row" id="paragraph-1"> 
-        <div class="col-6 text-start mx-auto mt-5">
+      <div class="row align-items-center" id="paragraph-1"> 
+        <div class="col-md-6 text-start mx-auto">
          <h4>Introducing an extensible editor</h4>
          <p>
           Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
@@ -75,23 +75,23 @@
           <p>
           Flexible content management enables users to easily move through posts. Increase the usability of your blog 
           by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-           </p>
+          </p>
 
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-md-6 mb-5">
           <img src="./images/illustration-editor-desktop.svg" alt="" width="85%">
         </div>
 
       </div>
     </div>
 
-    <div class="container-fluid text-center text-light bg-dark">
-      <div class="row"> 
+    <div class="container-fluid text-center text-light bg-dark w-100" id="third">
+      <div class="row align-items-center"> 
         <div class="col-6 mt-3">
-           <img src="./images/illustration-phones.svg" alt="" width="75%">
+           <img src="./images/illustration-phones.svg" alt="" width="55%">
         </div>
-        <div class="col-6 text-start mt-4" id:="paragraph-2">
-          <h3>State of the Art Infrastructure</h3>
+        <div class="col-md-6 text-start" id:="paragraph-2">
+          <h2>State of the Art Infrastructure</h2>
           <p>
             With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
             This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
@@ -102,11 +102,11 @@
     </div>
 
     <div class="container-fluid text-center text-dark bg-light">
-      <div class="row"> 
+      <div class="row align-items-center"> 
         <div class="col-6">
-          <img src="./images/illustration-laptop-desktop.svg" alt="" width="75%">
+          <img src="./images/illustration-laptop-desktop.svg" alt="" width="95%">
         </div>
-        <div class="col-6 text-start mt-4">
+        <div class="col-md-6 text-start mt-2">
           <h4>Free, open, simple</h4>
           <p>
             Blogr is a free and open source application backed by a large community of helpful developers. It supports 
@@ -121,15 +121,15 @@
       </div>
     </div>
 
-    <footer class="container-fluid text-start text-center text-light bg-dark">
+    <footer class="container-fluid text-center text-light bg-dark" id="footerr">
       <div class="row"> 
         <div class="col-3 mt-4">
           <h2>Blogr</h2>
         </div>
 
         <div class="col-3 text-center mt-4">
-          <h5>Product</h5>
-           <ul>
+          <h5 class="text-md-start pb-4 pt-2">Product</h5>
+           <ul class="text-md-start">
             <li>Overview</li>
             <li>Pricing</li>
             <li>Marketplace</li>
@@ -139,8 +139,8 @@
 
         </div>
         <div class="col-3 text-center mt-4">
-          <h5>Company</h5>
-           <ul>
+          <h5 class="text-md-start pb-4 pt-2">Company</h5>
+           <ul class="text-md-start">
             <li>About</li>
             <li>Team</li>
             <li>Blog</li>
@@ -149,8 +149,8 @@
 
         </div>
         <div class="col-3 text-center mt-4"> 
-          <h5>Connect</h5>
-          <ul>
+          <h5 class="text-md-start pb-4 pt-2">Connect</h5>
+          <ul class="text-md-start">
            <li>Contact</li>
            <li>Newsletter</li>
            <li>LinkedIn</li>
